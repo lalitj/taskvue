@@ -3,7 +3,7 @@ import Router from "vue-router";
 
 import Home from "@/components/Home";
 import Tasks from "@/components/Tasks";
-
+import Education from "@/components/Education";
 Vue.use(Router);
 
 const router = new Router({
@@ -19,6 +19,15 @@ const router = new Router({
             name: "Tasks",
             component: Tasks,
           },
+
+          {
+            path: "/education",
+            name: "Education",
+            component: Education,
+          },
+          
+          
+
     ]
 });
 
