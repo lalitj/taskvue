@@ -2,6 +2,9 @@ import Vue from 'vue'
 import App from './App.vue'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
+
+import router from "./router";
+
 Vue.config.productionTip = false
 
 // Import Bootstrap an BootstrapVue CSS files (order is important)
@@ -15,4 +18,5 @@ Vue.use(IconsPlugin)
 
 new Vue({
   render: h => h(App),
+  router
 }).$mount('#app')
