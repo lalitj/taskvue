@@ -965,11 +965,6 @@
     "consola" "^2.15.0"
     "node-fetch" "^2.6.1"
 
-"@popperjs/core@^2.9.2":
-  "integrity" "sha512-VZMYa7+fXHdwIq1TDhSXoVmSPEGM/aa+6Aiq3nVVJ9bXr24zScr+NlKFKC3iPljA7ho/GAZr+d2jOf5GIRC30Q=="
-  "resolved" "https://registry.npmjs.org/@popperjs/core/-/core-2.9.2.tgz"
-  "version" "2.9.2"
-
 "@soda/friendly-errors-webpack-plugin@^1.7.1":
   "integrity" "sha512-RLotfx6k1+nfLacwNCenj7VnTMPxVwYKoGOcffMFoJDKM8tXzBiCN0hMHFJNnoAojduYAsxuiMm0EOMixgiRow=="
   "resolved" "https://registry.npmjs.org/@soda/friendly-errors-webpack-plugin/-/friendly-errors-webpack-plugin-1.8.0.tgz"
@@ -2036,12 +2031,7 @@
     "portal-vue" "^2.1.7"
     "vue-functional-data-merge" "^3.1.0"
 
-"bootstrap@^5.0.0":
-  "integrity" "sha512-tmhPET9B9qCl8dCofvHeiIhi49iBt0EehmIsziZib65k1erBW1rHhj2s/2JsuQh5Pq+xz2E9bEbzp9B7xHG+VA=="
-  "resolved" "https://registry.npmjs.org/bootstrap/-/bootstrap-5.0.0.tgz"
-  "version" "5.0.0"
-
-"bootstrap@>=4.5.3 <5.0.0":
+"bootstrap@^4.6.0", "bootstrap@>=4.5.3 <5.0.0":
   "integrity" "sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw=="
   "resolved" "https://registry.npmjs.org/bootstrap/-/bootstrap-4.6.0.tgz"
   "version" "4.6.0"
